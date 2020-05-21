@@ -15,6 +15,11 @@
         </a>
         {{ end }}
     </ul>
+    <div class="cert-badge">
+      <div class="badge">
+        <img src="{{ .Site.Params.awsBadge | absURL }}">
+      </div> 
+    </div>
     <div class="footer">
         <div class="by_farbox">&copy; {{ .Site.Params.author }} {{ now.Format "2006"}} </div>
       </div>
